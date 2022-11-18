@@ -1,0 +1,49 @@
+title: Red Scope
+description: Personal Cyber Security Notes
+theme: just-the-docs
+aux_links:
+  "About Me":
+    - "//reflection.cf"
+url: https://redscope.reflection.cf
+color_scheme: dark
+aux_links_new_tab: true
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y at %I:%M %p"
+callouts:
+  info:
+    title: Info
+    color: blue
+  warning:
+    title: Warning
+    color: red
+# ga_tracking: UA-5555555-55
+
+# Define Jekyll collections
+collections:
+  # Define a collection named "tests", its documents reside in the "_tests" directory
+  red_team:
+    permalink: "/:collection/:path/"
+    output: true
+  tools:
+    permaline: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    # Reference the "tests" collection
+    red_team:
+      # Give the collection a name
+      name: Red Team
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      # nav_exclude: true
+      # Fold the collection in the navigation
+      # Supports true or false (default)
+      # nav_fold: true
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      # search_exclude: true
+    tools:
+      # Give the collection a name
+      name: Tools
