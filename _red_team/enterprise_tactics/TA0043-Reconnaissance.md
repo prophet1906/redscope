@@ -23,7 +23,16 @@ nav_order: 2
     - Vulnerabilities scans
     - Web application probing
     - ...
+- OSINT(using public data sources)
+    - emails
+    - names
+    - subdomains
+    - IPs
+    - URLs
+    - ...
 
 # Tools
 - [OWASP Amass](/tools/amass)
 - [Sn1per](/tools/sn1per)
+- [theHarvester](/tools/theharvester)
+- [Spiderfoot](/tools/spiderfoot)
