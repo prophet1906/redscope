@@ -12,6 +12,18 @@ nav_order: 2
     - Certificates
     - APIs
     - Web Archives
+- Passive Information Gathering
+    - WHOIS records
+    - DNS Queries
+    - Social media search
+    - Search engine recon
+    - ...
+- Active Information Gathering
+    - NMAP Port scans
+    - Vulnerabilities scans
+    - Web application probing
+    - ...
 
 # Tools
 - [OWASP Amass](/tools/amass)
+- [Sn1per](/tools/sn1per)

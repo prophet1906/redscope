@@ -4,6 +4,7 @@ layout: default
 ---
 
 # OWASP Amass
+In-depth Attack Surface Mapping and Asset Discovery.
 
 Detailed information [here](https://github.com/OWASP/Amass).
 Amass also integrates with Maltego.
