@@ -39,3 +39,4 @@ nav_order: 2
 - [Recon-ng](/tools/recon-ng)
 - [Maltego CE](/tools/maltego-ce)
 - [Social Engineering Toolkit](/tools/set)
+- [Nikto](/tools/nikto)
