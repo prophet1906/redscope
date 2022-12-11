@@ -51,9 +51,9 @@ Setup your own server of relay server to send payload in email.
 18. Password for open-relay [<your-mail-server>]: <your-mail-server-password>
 19. SMTP email server address: <your-smtp-email-server-address>
 20. Port number for SMTP server [25]: 587
-21. Flag this message as high priority? [yes|no]: yes
-22. Does your server support TLS? [yes|no]: no
-23. Setup a listener [yes|no]:yes
+21. Flag this message as high priority? [yes/no]: yes
+22. Does your server support TLS? [yes/no]: no
+23. Setup a listener [yes/no]:yes
 24. This will start a metasploit session with listener
 25. Now you have to wait for target to open set playload(pdf in this case)
 
