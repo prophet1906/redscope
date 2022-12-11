@@ -1,0 +1,344 @@
+{"0": {
+    "doc": "Home",
+    "title": "Home",
+    "content": "This blog is a collection of my notes on Ethical Hacking and legal Penetration Testing. All information on this website is for educational use only. By accessing this blog, you agree to avoid using these techniques on or against systems you do not own or have express permission. Doing so is illegal and can land you in jail. Also, using some of the scanning tools covered here could be illegal in some areas – Always follow your regional and country laws. Becoming a real penetration tester takes years of training and education. These articles demonstrate a single technique in a test environment and in no way encompass all the risks you would encounter using these techniques in a live production environment. Always know and understand the full impact of any tool you use before attempting to use it yourself. Techniques and software change over time and may break the validity of some notes. Any damage caused by following the techniques on this website is the sole responsibility of the user/reader. ",
+    "url": "/",
+    "relUrl": "/"
+  },"1": {
+    "doc": "Introduction",
+    "title": "NIST Cybersecurity Framework",
+    "content": ". ",
+    "url": "/red_team/Introduction/#nist-cybersecurity-framework",
+    "relUrl": "/red_team/Introduction/#nist-cybersecurity-framework"
+  },"2": {
+    "doc": "Introduction",
+    "title": "Pen-testing",
+    "content": ". | Tests all applications and services | Test against all things looking for any exploit | Provide a report but don’t generally interact | . ",
+    "url": "/red_team/Introduction/#pen-testing",
+    "relUrl": "/red_team/Introduction/#pen-testing"
+  },"3": {
+    "doc": "Introduction",
+    "title": "Red Team Operation",
+    "content": ". | Emulates known adversary group behavior | Replicate techniques over full attack lifecycle | Provide actionable results for detection | . ",
+    "url": "/red_team/Introduction/#red-team-operation",
+    "relUrl": "/red_team/Introduction/#red-team-operation"
+  },"4": {
+    "doc": "Introduction",
+    "title": "Kill Chain",
+    "content": ". | Recon | Exploit | Escalate | Lateral Movement | Evade | Action | . ",
+    "url": "/red_team/Introduction/#kill-chain",
+    "relUrl": "/red_team/Introduction/#kill-chain"
+  },"5": {
+    "doc": "Introduction",
+    "title": "Role Specific Steps",
+    "content": ". | Pen-tester - Recon + Exploit | Next Gen Pen-tester - Recon + Exploit + Escalate + Lateral Movement(optionally) | Red Team - Recon + Exploit + Escalate + Lateral Movement + Evade + Action | . ",
+    "url": "/red_team/Introduction/#role-specific-steps",
+    "relUrl": "/red_team/Introduction/#role-specific-steps"
+  },"6": {
+    "doc": "Introduction",
+    "title": "MITRE ATT&amp;CK",
+    "content": "It is a globally accessible knowledge base of adversary tactics and techniques based on real-world observations. Tactics are what attackers are trying to achieve. Techniques are how they accomplish those steps or goals. MITRE ATT&amp;CK defines following matrices: . | Enterprise . | PRE | Windows | macOS | Linux | Cloud | Network | Containers | . | Mobile . | Android | iOS | . | Industrial Control Systems(ICS) | . Every matrice contains Tactics which contain a list of Techniques. A technique may further include sub-techniques, depending on complexity. MITRE ATT&amp;CK Navigator is a web-based tool for annotating and exploring ATT&amp;CK matrices. ",
+    "url": "/red_team/Introduction/#mitre-attck",
+    "relUrl": "/red_team/Introduction/#mitre-attck"
+  },"7": {
+    "doc": "Introduction",
+    "title": "Introduction",
+    "content": " ",
+    "url": "/red_team/Introduction/",
+    "relUrl": "/red_team/Introduction/"
+  },"8": {
+    "doc": "Enterprise Tactics",
+    "title": "Enterprise Tactics",
+    "content": "| ID | Name | Description | . | TA0043 | Reconnaissance | The adversary is trying to gather information they can use to plan future operations. | . | TA0042 | Resource Development | The adversary is trying to establish resources they can use to support operations. | . | TA0001 | Initial Access | The adversary is trying to get into your network. | . | TA0002 | Execution | The adversary is trying to run malicious code. | . | TA0003 | Persistence | The adversary is trying to maintain their foothold. | . | TA0004 | Privilege Escalation | The adversary is trying to gain higher-level permissions. | . | TA0005 | Defense Evasion | The adversary is trying to avoid being detected. | . | TA0006 | Credential Access | The adversary is trying to steal account names and passwords. | . | TA0007 | Discovery | The adversary is trying to figure out your environment. | . | TA0008 | Lateral Movement | The adversary is trying to move through your environment. | . | TA0009 | Collection | The adversary is trying to gather data of interest to their goal. | . | TA0011 | Command and Control | The adversary is trying to communicate with compromised systems to control them. | . | TA0010 | Exfiltration | The adversary is trying to steal data. | . | TA0040 | Impact | The adversary is trying to manipulate, interrupt, or destroy your systems and data. | . ",
+    "url": "/red_team/enterprise_tactics/Introduction/",
+    "relUrl": "/red_team/enterprise_tactics/Introduction/"
+  },"9": {
+    "doc": "TA0001 Initial Access",
+    "title": "TA0001 Initial Access",
+    "content": " ",
+    "url": "/red_team/enterprise_tactics/TA0001-Initial%20Access/",
+    "relUrl": "/red_team/enterprise_tactics/TA0001-Initial%20Access/"
+  },"10": {
+    "doc": "TA0002 Execution",
+    "title": "TA0002 Execution",
+    "content": " ",
+    "url": "/red_team/enterprise_tactics/TA0002-Execution/",
+    "relUrl": "/red_team/enterprise_tactics/TA0002-Execution/"
+  },"11": {
+    "doc": "TA0003 Persistence",
+    "title": "TA0003 Persistence",
+    "content": " ",
+    "url": "/red_team/enterprise_tactics/TA0003-Persistence/",
+    "relUrl": "/red_team/enterprise_tactics/TA0003-Persistence/"
+  },"12": {
+    "doc": "TA0004 Privilege Escalation",
+    "title": "TA0004 Privilege Escalation",
+    "content": " ",
+    "url": "/red_team/enterprise_tactics/TA0004-Privilege%20Escalation/",
+    "relUrl": "/red_team/enterprise_tactics/TA0004-Privilege%20Escalation/"
+  },"13": {
+    "doc": "TA0005 Defensive Evasion",
+    "title": "TA0005 Defensive Evasion",
+    "content": " ",
+    "url": "/red_team/enterprise_tactics/TA0005-Defensive%20Evasion/",
+    "relUrl": "/red_team/enterprise_tactics/TA0005-Defensive%20Evasion/"
+  },"14": {
+    "doc": "TA0006 Credential Access",
+    "title": "TA0006 Credential Access",
+    "content": " ",
+    "url": "/red_team/enterprise_tactics/TA0006-Credential%20Access/",
+    "relUrl": "/red_team/enterprise_tactics/TA0006-Credential%20Access/"
+  },"15": {
+    "doc": "TA0007 Discovery",
+    "title": "TA0007 Discovery",
+    "content": " ",
+    "url": "/red_team/enterprise_tactics/TA0007-Discovery/",
+    "relUrl": "/red_team/enterprise_tactics/TA0007-Discovery/"
+  },"16": {
+    "doc": "TA0008 Lateral Movement",
+    "title": "TA0008 Lateral Movement",
+    "content": " ",
+    "url": "/red_team/enterprise_tactics/TA0008-Lateral%20Movement/",
+    "relUrl": "/red_team/enterprise_tactics/TA0008-Lateral%20Movement/"
+  },"17": {
+    "doc": "TA0009 Collection",
+    "title": "TA0009 Collection",
+    "content": " ",
+    "url": "/red_team/enterprise_tactics/TA0009-Collection/",
+    "relUrl": "/red_team/enterprise_tactics/TA0009-Collection/"
+  },"18": {
+    "doc": "TA0010 Exfiltration",
+    "title": "TA0010 Exfiltration",
+    "content": " ",
+    "url": "/red_team/enterprise_tactics/TA0010-Exfiltration/",
+    "relUrl": "/red_team/enterprise_tactics/TA0010-Exfiltration/"
+  },"19": {
+    "doc": "TA0011 Command and Control",
+    "title": "TA0011 Command and Control",
+    "content": " ",
+    "url": "/red_team/enterprise_tactics/TA0011-Command%20and%20Control/",
+    "relUrl": "/red_team/enterprise_tactics/TA0011-Command%20and%20Control/"
+  },"20": {
+    "doc": "TA0040 Impact",
+    "title": "TA0040 Impact",
+    "content": " ",
+    "url": "/red_team/enterprise_tactics/TA0040-Impact/",
+    "relUrl": "/red_team/enterprise_tactics/TA0040-Impact/"
+  },"21": {
+    "doc": "TA0042 Resource Development",
+    "title": "TA0042 Resource Development",
+    "content": " ",
+    "url": "/red_team/enterprise_tactics/TA0042-Resource%20Development/",
+    "relUrl": "/red_team/enterprise_tactics/TA0042-Resource%20Development/"
+  },"22": {
+    "doc": "TA0043 Reconnaissance",
+    "title": "TA0043 Reconnaissance",
+    "content": ". | Domain Enumeration . | DNS Queries | Open Source Databases | Certificates | APIs | Web Archives | . | Passive Information Gathering . | WHOIS records | DNS Queries | Social media search | Search engine recon | … | . | Active Information Gathering . | NMAP Port scans | Vulnerabilities scans | Web application probing | … | . | OSINT(using public data sources) . | emails | names | subdomains | IPs | URLs | … | . | . ",
+    "url": "/red_team/enterprise_tactics/TA0043-Reconnaissance/",
+    "relUrl": "/red_team/enterprise_tactics/TA0043-Reconnaissance/"
+  },"23": {
+    "doc": "TA0043 Reconnaissance",
+    "title": "Tools",
+    "content": ". | OWASP Amass | Sn1per | theHarvester | Spiderfoot | Recon-ng | Maltego CE | Social Engineering Toolkit | Nikto | . ",
+    "url": "/red_team/enterprise_tactics/TA0043-Reconnaissance/#tools",
+    "relUrl": "/red_team/enterprise_tactics/TA0043-Reconnaissance/#tools"
+  },"24": {
+    "doc": "Resources",
+    "title": "Resources",
+    "content": ". | APT Groups | Mitre Attack Navigator | iSaCs | VirusTotal Graph | Infragard | . ",
+    "url": "/red_team/resources/",
+    "relUrl": "/red_team/resources/"
+  },"25": {
+    "doc": "OWASP Amass",
+    "title": "OWASP Amass",
+    "content": "In-depth Attack Surface Mapping and Asset Discovery. Detailed information here. Amass also integrates with Maltego. ",
+    "url": "/tools/amass.html",
+    "relUrl": "/tools/amass.html"
+  },"26": {
+    "doc": "OWASP Amass",
+    "title": "Techniques covered",
+    "content": ". | TA0043 Reconnaissance . | T1596 Search Open Technical Databases . | .001 DNS/Passive DNS | .002 WHOIS | .003 Digital Certificates | . | . | . ",
+    "url": "/tools/amass.html#techniques-covered",
+    "relUrl": "/tools/amass.html#techniques-covered"
+  },"27": {
+    "doc": "OWASP Amass",
+    "title": "Basic Usage",
+    "content": "ASN - autonomous system number. Globomantics is a fictional company used in trainings. I am using globomantics website setup by pluralsight for their security training courses. Feel free to use other domains. # Use non-recursive if there are too many subdomains amass enum -v -d globomantics.com -src -ip [-norecursive] -dir globomantics # Bruteforce domain names available at /usr/share/amass/wordlists amass enum -v -d globomantics.com -src -ip -brute -dir globomantics # ASN scan freezes system sometimes amass intel -asn 16509 # whois lookup amass intel -whois -d globomantics.com -dir globomantics # list enumeration attempts amass db -dir globomantics -list # show details of enumeration attempt amass db -dir globomantics -enum 1 -show # visualize graph using d3 amass viz -dir globomantics -d3 . ASN scan may reveal domains which are running on shared infrastructure but are not part of the target. Limit the scope to target when you don’t have explicit permission to explore other domains. ",
+    "url": "/tools/amass.html#basic-usage",
+    "relUrl": "/tools/amass.html#basic-usage"
+  },"28": {
+    "doc": "Maltego CE",
+    "title": "Maltego CE",
+    "content": "It is an open source intelligence(OSINT) and graphical link analysis tool for gathering and connecting information for investigative tasks. Detailed information here. Maltego transforms data node in graph and populates more nodes in graph. There are more than 100 transforms in maltego. Consider paid version for professional red team and bug bounty. Community version shows limited results. ",
+    "url": "/tools/maltego-ce.html",
+    "relUrl": "/tools/maltego-ce.html"
+  },"29": {
+    "doc": "Maltego CE",
+    "title": "Techniques covered",
+    "content": ". | Technical Information Gathering . | T1253 Conduct passice scanning | T1250 Determine domain and IP address space | . | People Information Gathering . | T1269 Identify People of Interest | . | . ",
+    "url": "/tools/maltego-ce.html#techniques-covered",
+    "relUrl": "/tools/maltego-ce.html#techniques-covered"
+  },"30": {
+    "doc": "Maltego CE",
+    "title": "Basic Usage",
+    "content": "Set domain name as root node, then run transforms as shown below. globomantics.com - List of subdomains - List if IPs for each subdomain - List of key technical people - E-mail addresses - E-mails in previous data breaches . You need to register for Maltego Community Edition. ",
+    "url": "/tools/maltego-ce.html#basic-usage",
+    "relUrl": "/tools/maltego-ce.html#basic-usage"
+  },"31": {
+    "doc": "Maltego CE",
+    "title": "Steps",
+    "content": ". | Create a new graph by pressing + button on top left corner. | Create a new node by dragging and dropping domain from left entity palette. | Right click on domain node to see transforms menu. | Click on To DNS Name - NS(name server), this should create child nodes with name server information. | You can also delete nodes from graph. | We are trying to collect technical information from nasa.gov domain. | Maltego community edition is limited to max of 12 results per transform. | Use transform To DNS Name (interesting) [SecurityTrails]. | Go with least common subdomains as target, common domains are usually patched frequently. | You can now apply transform To IP Address [DNS] on any dns node. This will generate IP node. | You can find location of IP, by applying transform To Location [city, country]. | You can stack more transforms on different nodes at every layer. | Save the graph and You can reuse it in future. | . Note: You can install plugins from maltego homepage to get more transforms. ",
+    "url": "/tools/maltego-ce.html#steps",
+    "relUrl": "/tools/maltego-ce.html#steps"
+  },"32": {
+    "doc": "Maltego CE",
+    "title": "Maltego Versions",
+    "content": "| Community Edition | Classic/XL | Enterprise | . | Limited Transforms | All OSINT transforms | On-Premise Deployments | . | Maximum 12 results per transform | Access to commercial hub | Integration with own data | . | Not for commercial use | Commercial Use | No rates or limits for own transforms | . ",
+    "url": "/tools/maltego-ce.html#maltego-versions",
+    "relUrl": "/tools/maltego-ce.html#maltego-versions"
+  },"33": {
+    "doc": "Nikto",
+    "title": "Nikto",
+    "content": "It is a free and open source web server and web application assessment tool. The primary function of nikto is to identify security weaknesses such as default files, misconfigurations, or published security vulnerabilities. Detailed information here. Nikto can integrate well with other tools like: . | Metasploit | Nmap | Nessus | OpenVAS | . ",
+    "url": "/tools/nikto.html",
+    "relUrl": "/tools/nikto.html"
+  },"34": {
+    "doc": "Nikto",
+    "title": "Techniques covered",
+    "content": ". | Technical Weakness Identification . | T1293 Analyze application security posture | T1288 Analyze architecture and configuration posture | . | . Do not use against target you do not own, or have explicit permission from. Nikto sends 1000’s of requests to target and then indexes the responses to identify problems. ",
+    "url": "/tools/nikto.html#techniques-covered",
+    "relUrl": "/tools/nikto.html#techniques-covered"
+  },"35": {
+    "doc": "Nikto",
+    "title": "Basic Usage",
+    "content": "You can download of copy of sample vulnerable app from here. Run this vulnerable app inside sandbox to test stuff out. # These scans can take some time # Press space to check status nikto -host https://www.vulnerablewebapps.org/ # a txt file with targets can also be used echo \"&lt;host1&gt;\" &gt; niktotargets.txt echo \"&lt;host2&gt;\" &gt;&gt; niktotargets.txt nikto -host niktotargets.txt # list plugins nikto -list-plugins # Example for passive robots file scan nikto -Plugins \"robots(nocheck)\" -host &lt;host&gt; # Example for active robots file scan nikto -Plugins robots -host &lt;host&gt; # save positive findings to current directory nikto -host &lt;host&gt; -Save . # replay saved request replay.pl &lt;saved-txt-file&gt; . ",
+    "url": "/tools/nikto.html#basic-usage",
+    "relUrl": "/tools/nikto.html#basic-usage"
+  },"36": {
+    "doc": "Nikto",
+    "title": "Using nikto with proxy while authenticated",
+    "content": ". | Open BurpSuite | Open BurpSuite project | Go to proxy tab, turn intercept off | Check proxy listener address in options tab | Run nikto scan through proxy nikto -host &lt;host&gt; -useproxy &lt;burp-proxy-address&gt; -nossl . | All requests will get proxied through burp suite | If you are using same config everytime, update /etc/nikto.conf | You can also set cookies to use with nikto | The output can also be saved using -Format htm -output report.html | Template for saving reports can be edited from /var/lib/nikto/templates/*.tmpl | . Note: You are not permitted to remove copyright statement from these templates. ",
+    "url": "/tools/nikto.html#using-nikto-with-proxy-while-authenticated",
+    "relUrl": "/tools/nikto.html#using-nikto-with-proxy-while-authenticated"
+  },"37": {
+    "doc": "Recon-ng",
+    "title": "Recon-ng",
+    "content": "Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from open sources. Detailed information here . ",
+    "url": "/tools/recon-ng.html",
+    "relUrl": "/tools/recon-ng.html"
+  },"38": {
+    "doc": "Recon-ng",
+    "title": "Techniques covered",
+    "content": ". | Technical Information Gathering . | T1250 Determine domain and IP address space | T1261 Enumerate externally facing software applications, technologies, languages, and dependencies | . | People Information Gathering . | T1271 Identify personnel with an authority/privilege | . | . ",
+    "url": "/tools/recon-ng.html#techniques-covered",
+    "relUrl": "/tools/recon-ng.html#techniques-covered"
+  },"39": {
+    "doc": "Recon-ng",
+    "title": "Basic Usage",
+    "content": "There are 2 contexts in recon-ng - global and module. recon-ng works in interactive mode. General flow of using recon-ng is to populate some table with seed data and use modules from marketplace to transform and enrich data in all tables. You can always type help to see general commands. &gt; help workspaces # create workspace for target &gt; workspaces create pluralsight # data and configuration is seggregated for all workspaces &gt; help options # check list of available options &gt; options list # we need to provide seed data to perform other transformations &gt; help db # insert data into companies table &gt; db insert companies &gt; show companies # transform data into something useful # modules can be installed from marketplace &gt; help marketplace # show all modules &gt; marketplace search # some modules may have dependencies which need to be manually installed &gt; marketplace search companies- &gt; marketplace install recon/companies-multi/whois_miner # list installed modules &gt; modules search # load module - pattern matches name from installed modules &gt; modules load miner &gt; help &gt; options list # run the module &gt; run # view data filled by running module &gt; show locations &gt; show netblocks &gt; show contacts # expanding dataset &gt; db insert domains &gt; show domains # exit module context &gt; back # search modules that can transform previously fetched contacts &gt; marketplace search contacts- &gt; marketplace install hibp &gt; modules load hibp # be specific when loading when multiple modules has same name &gt; modules load recon/contacts-credentials/hibp_breach # Note: You need to configure hibp api key before running this module &gt; run # view breached credentials for contacts &gt; show credentials # you can also query table directly &gt; db query select * from credentials &gt; exit . You can also use recon-web for web interface. Web interface can be used to analyze, clean and export data fetched from previous steps. recon-web --host 0.0.0.0 . ",
+    "url": "/tools/recon-ng.html#basic-usage",
+    "relUrl": "/tools/recon-ng.html#basic-usage"
+  },"40": {
+    "doc": "Social Engineering Toolkit",
+    "title": "Social Engineering Toolkit",
+    "content": "Open source penetration testing framework designed for social engineering. Encompasses built-in attacks which are designed to be focused on a person or organization. Detailed information here. Social Engineering Toolkit covers: . | Spearphishing Attacks | Website Attacks | Infectious Media Attacks | Wireless AP Attacks | Powershell Attacks | …and more | . ",
+    "url": "/tools/set.html",
+    "relUrl": "/tools/set.html"
+  },"41": {
+    "doc": "Social Engineering Toolkit",
+    "title": "Techniques covered",
+    "content": ". | Technical Information Gathering . | T1249 Conduct Social Engineering | T1397 Spearphishing for information | . | People Information Gathering . | T1268 Conduct Social Engineering | . | . ",
+    "url": "/tools/set.html#techniques-covered",
+    "relUrl": "/tools/set.html#techniques-covered"
+  },"42": {
+    "doc": "Social Engineering Toolkit",
+    "title": "Basic Usage",
+    "content": "SET runs in interactive mode. Google puts in a lot of effort to prevent phishing emails. Setup your own server of relay server to send payload in email. ",
+    "url": "/tools/set.html#basic-usage",
+    "relUrl": "/tools/set.html#basic-usage"
+  },"43": {
+    "doc": "Social Engineering Toolkit",
+    "title": "Example: Spearphishing",
+    "content": ". | Spear-Phishing Attack Vectors | Create a FileFormat Payload | Adobe PDF Embedded EXE Social Engineering | Use built-in BLANK PDF for attack | Windows Meterpreter Reverse_TCP(x64) | Host: external IP for your PC/listener | Port: default 443 | Rename the file, I want to be cool. | New filename:Invoice.pdf | E-Mail Attack Single Email Address | Pre-Defined Template | Order Confirmation | Send email to:target@eyepaste.com | Use your own server or open relay | From address: abc@my-server.com | The FROM NAME user will see: Online Sales Team | Username for open-relay [blank]: | Password for open-relay []: | SMTP email server address: | Port number for SMTP server [25]: 587 | Flag this message as high priority? [yes/no]: yes | Does your server support TLS? [yes/no]: no | Setup a listener [yes/no]:yes | This will start a metasploit session with listener | Now you have to wait for target to open set playload(pdf in this case) | . ",
+    "url": "/tools/set.html#example-spearphishing",
+    "relUrl": "/tools/set.html#example-spearphishing"
+  },"44": {
+    "doc": "Social Engineering Toolkit",
+    "title": "Example: Credential Harvesting",
+    "content": ". | Website Attack Vectors | Credential Harvester Attack Method | Site Cloner | IP address for the POST back in Harvester/Tabnabbing: Listening server external IP | Enter the url to clone: | Target enters username and password, fake website redirects to original site | We can see username and password in listener program | . ",
+    "url": "/tools/set.html#example-credential-harvesting",
+    "relUrl": "/tools/set.html#example-credential-harvesting"
+  },"45": {
+    "doc": "Social Engineering Toolkit",
+    "title": "Example: Creating Infectious Media",
+    "content": ". | Infectious Media Generator | File-Format Exploits | Adobe PDF Embedded EXE Social Engineering | Use built-in BLANK PDF for attack | Windows Meterpreter Reverse_TCP(x64) | IP address or URL for the payload listener | Port for payload listener | You can start the listener | Copy payload and share with target | . ",
+    "url": "/tools/set.html#example-creating-infectious-media",
+    "relUrl": "/tools/set.html#example-creating-infectious-media"
+  },"46": {
+    "doc": "Social Engineering Toolkit",
+    "title": "Example: QR Code Attack",
+    "content": ". | QRCode Generator Attack Vector | Enter the URL you want the QRCode to go to: | Share QRCode with target | . ",
+    "url": "/tools/set.html#example-qr-code-attack",
+    "relUrl": "/tools/set.html#example-qr-code-attack"
+  },"47": {
+    "doc": "Social Engineering Toolkit",
+    "title": "Example: Google Analytics Attack",
+    "content": ". | Third Party Modules | Google Analytics Attack by @ZonkSec | Choose mode (automatic/manual): manual | Enter TrackingID (tid)(UA-XXXXX): . | Enter target host (dh): | Enter target page (dp): | Enter target page title (dt): ) | Enter referal page to spoof (dr): &lt;target-referal-page/fake-site&gt; | Print Payload | Send Payload (on loop) | Seconds between payload send: 1 | This will show our fake-site as top referrals in google analytics dashboard for target | The target will click to check what the site is about | This redirects to fake site that can spoof target data | . ",
+    "url": "/tools/set.html#example-google-analytics-attack",
+    "relUrl": "/tools/set.html#example-google-analytics-attack"
+  },"48": {
+    "doc": "Sn1per",
+    "title": "Sn1per",
+    "content": "Attack Surface Management Platform. Detailed information here. Automates common reconnaissance techniques. Leverages other recon tools and is recommended for advanced red teamers. Reports generated by sn1per can be used to automate red team process. Consider Pro version for professional red team and bug bounty. ",
+    "url": "/tools/sn1per.html",
+    "relUrl": "/tools/sn1per.html"
+  },"49": {
+    "doc": "Sn1per",
+    "title": "Techniques covered",
+    "content": ". | TA0043 Reconnaissance . | T1595 Active Scanning | T1592 Gather Victim Host Information | T1590 Gather Victim Network Information | T1596 Search Open Source Technical Databases | T1593 Search Open Source Websites/Domains | T1589 Gather Victim Identity Information | . | . ",
+    "url": "/tools/sn1per.html#techniques-covered",
+    "relUrl": "/tools/sn1per.html#techniques-covered"
+  },"50": {
+    "doc": "Sn1per",
+    "title": "Basic Usage",
+    "content": "I am doing passive scan on nasa.gov and active scan on globomantics.com here. Sn1per only runs with root shell elevation. SOC - security operations center . sudo -i # active + passive scan -&gt; creates noise # only do when you have authorization # easily detected by SOC team sniper -t globomantics.com # check vulnerabilities/sc0pe-all-vulnerabilities-sorted.txt # these vulnerabilities list can be used to automate exploit # passive scan + osint(linkedin, twitter, etc) + recon mode sniper -t nasa.gov -m stealth -o -re # all scan results are available at /usr/share/sniper/loot/workspace . ",
+    "url": "/tools/sn1per.html#basic-usage",
+    "relUrl": "/tools/sn1per.html#basic-usage"
+  },"51": {
+    "doc": "SpiderFoot",
+    "title": "SpiderFoot",
+    "content": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface. Detailed information here. ",
+    "url": "/tools/spiderfoot.html",
+    "relUrl": "/tools/spiderfoot.html"
+  },"52": {
+    "doc": "SpiderFoot",
+    "title": "Techniques covered",
+    "content": ". | TA0043 Reconnaissance . | T1595 Active Scanning | T1592 Gather Victim Host Information | T1589 Gather Victim Identity Information | T1590 Gather Victim Network Information | T1591 Gather Victim Org Information | T1597 Search Closed Sources | T1596 Search Open Technical Databases | T1593 Search Open Websites/Domains | T1594 Search Victim Owned Websites | . | . ",
+    "url": "/tools/spiderfoot.html#techniques-covered",
+    "relUrl": "/tools/spiderfoot.html#techniques-covered"
+  },"53": {
+    "doc": "SpiderFoot",
+    "title": "Basic Usage",
+    "content": "# run following command to start spiderfoot spiderfoot -l 0.0.0.0:8080 # open browser and explore localhost:8080 # Most things should be obvious and easy to understand . ",
+    "url": "/tools/spiderfoot.html#basic-usage",
+    "relUrl": "/tools/spiderfoot.html#basic-usage"
+  },"54": {
+    "doc": "theHarvester",
+    "title": "theHarvester",
+    "content": "E-mails, subdomains and names Harvester - Open Source Intelligence Gathering(OSINT) Helps determine a company’s external threat landscape on the internet. Gathers emails, names, subdomains, IPs and URLs using multiple public data sources. theHarvester complements other tools but doesn’t replace any. Detailed information here. ",
+    "url": "/tools/theharvester.html",
+    "relUrl": "/tools/theharvester.html"
+  },"55": {
+    "doc": "theHarvester",
+    "title": "Techniques covered",
+    "content": "Most external tools used by theHarvester require API keys, never got an opportunity to configure all keys and check which techniques from TA0043 Reconnaissance are covered. I personally prefer Spiderfoot over theHarvester. ",
+    "url": "/tools/theharvester.html#techniques-covered",
+    "relUrl": "/tools/theharvester.html#techniques-covered"
+  },"56": {
+    "doc": "theHarvester",
+    "title": "Basic Usage",
+    "content": "The scans are non-intrusive as they depend on publicly availble information from different sites. Many data sources block IP when you make too many calls to their APIs. Either restrict your search results with some cooldown between searches or use VPN to dodge IP blocks. # check which sources are available with your version of harvester theharvester -h # passive recon # limit to 500 searches theharvester -d globomantics.com -l 500 -b anubis,baidu,bing,certspotter,crtsh,dnsdumpster,duckduckgo,hackertarget,omnisint,otx,qwant,rapiddns,sublist3r,threatcrowd,threatminer,urlscan,yahoo # active recon - very noisy # this will bruteforce dns names theharvester -d globomantics.com -c # dns lookup theharvester -d globomantics.com -l 500 -b yahoo,bing -n # all data source theharvester -d nasa.gov -l 500 -b all . ",
+    "url": "/tools/theharvester.html#basic-usage",
+    "relUrl": "/tools/theharvester.html#basic-usage"
+  }
+}
