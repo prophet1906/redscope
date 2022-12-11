@@ -50,6 +50,7 @@ You need to register for Maltego Community Edition.
 Note: You can install plugins from maltego homepage to get more transforms.
 
 # Maltego Versions
+
 |         Community Edition        |        Classic/XL        |               Enterprise              |
 |:--------------------------------:|:------------------------:|:-------------------------------------:|
 | Limited Transforms               | All OSINT transforms     | On-Premise Deployments                |
