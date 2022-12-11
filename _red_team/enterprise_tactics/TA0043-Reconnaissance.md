@@ -38,3 +38,4 @@ nav_order: 2
 - [Spiderfoot](/tools/spiderfoot)
 - [Recon-ng](/tools/recon-ng)
 - [Maltego CE](/tools/maltego-ce)
+- [Social Engineering Toolkit](/tools/set)
