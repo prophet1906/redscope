@@ -37,3 +37,4 @@ nav_order: 2
 - [theHarvester](/tools/theharvester)
 - [Spiderfoot](/tools/spiderfoot)
 - [Recon-ng](/tools/recon-ng)
+- [Maltego CE](/tools/maltego-ce)
