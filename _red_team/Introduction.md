@@ -25,7 +25,7 @@ nav_order: 1
 - Evade
 - Action
 
-# Kill chain phases relevant for different Roles
+# Role Specific Steps
 - **Pen-tester** - Recon + Exploit
 - **Next Gen Pen-tester** - Recon + Exploit + Escalate + Lateral Movement(optionally)
 - **Red Team** - Recon + Exploit + Escalate + Lateral Movement + Evade + Action
