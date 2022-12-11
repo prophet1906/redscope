@@ -36,3 +36,4 @@ nav_order: 2
 - [Sn1per](/tools/sn1per)
 - [theHarvester](/tools/theharvester)
 - [Spiderfoot](/tools/spiderfoot)
+- [Recon-ng](/tools/recon-ng)
